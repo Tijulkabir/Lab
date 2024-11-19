@@ -5,19 +5,20 @@
 
 int main()
 {
+    printf("This is a problem about postive negative and zero number test.\n");
     int n;
     printf("Enter a Number : ");
     scanf("%d" ,&n);
 
     if (n>0)
     {
-        printf("Number %d is positive \n" ,n);
+        printf("%d  is a positive number \n" ,n);
 
     }
 
     else if (n<0)
     {
-        printf("Number %d is Negative. \n " ,n);
+        printf("%d  is a negative number  " ,n);
 
     }
     
