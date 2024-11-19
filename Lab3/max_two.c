@@ -15,13 +15,14 @@ int main()
 
     if (first_num > second_num)  
     {
-        printf("Max is First number: %d\n", first_num);
+        printf("Max is First number. \n", first_num);
     } 
-    else if (second_num > first_num) {
-        printf("Max is Second number: %d\n", second_num);
+    else if (second_num > first_num)
+    {
+        printf("Max is Second number. \n", second_num);
     } 
     else {
-        printf("Both numbers are equal\n");
+        printf("Both numbers are equal.\n");
     }
 
     return 0;
